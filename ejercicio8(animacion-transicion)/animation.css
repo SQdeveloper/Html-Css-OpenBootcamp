@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;                            
+    height: 100vh;
+}
+
+.btn-modern {
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    transition: all 0.4s;
+}
+
+.btn-modern:hover {
+    background-color: blue;
+    color: pink;
+    box-shadow: 0 0 6px red;
+    transform: translateY(-5px);
+}
